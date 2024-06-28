@@ -1,0 +1,46 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform directory
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Local .env files
+.env
+
+# Lock file for Terraform providers
+.terraform.lock.hcl
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# General binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.lock
+*.swp
+*.swo
+.DS_Store
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.35.0/linux_amd64/terraform-provider-aws_v5.35.0_x5
+.terraform/providers/registry.terraform.io/hashicorp/aws/5.34.0/linux_amd64/terraform-provider-aws_v5.34.0_x5
